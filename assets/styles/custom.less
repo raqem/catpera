@@ -1,0 +1,119 @@
+//variables 
+
+@thickfont: 'Yatra One', cursive;
+@fancyfont: 'Indie Flower', cursive;
+@midfont: 'Architects Daughter', cursive; 
+
+@nav: #6AD8A9;
+@darknav: #0e3524;
+@white1: #F7F6FC;
+@white: #ECEBF1;
+@back: #F8F8FA;
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body, html{
+	width: 100%;
+     background-color: @back;
+}
+
+#nav{
+     height: 100px;
+     background-color: @white;
+     width: 100%;
+     position: fixed;
+     border-bottom: solid 2px @darknav;
+   
+	.logo img{
+	  height: 80px;
+	  width: 80px;
+	  float: left;
+	  margin: 10px 10px 10px 25px;
+       position: fixed;
+       background-color: @white;
+    }
+
+     nav{
+     height: 80px;
+     width: 100%;
+     padding-top: 7px;
+     position: fixed;
+     margin-left: 500px;
+     background-color: @white;
+     }
+
+     ul{
+     list-style: none;
+
+     }
+
+     li{
+     display: inline-block;
+     margin-left: 30px;
+     padding-top: 35px;
+     }
+
+     a{
+     text-decoration: none;
+     font-family: 'Lato';
+     text-transform: uppercase;
+     font-size: 22px;
+     color: @darknav;
+
+     }
+}
+
+.banner{
+     
+
+     .back-pic{
+     padding-top: 85px;
+     width: 100%;
+
+      img{
+          width: 100%;
+     }
+ }
+
+     h1{
+     font-family: @fancyfont;
+     color: @nav;
+     font-size: 64px;
+     text-align: center;
+     margin-top: -210px;
+     margin-bottom: 210px;
+     }
+
+}
+
+.needs{
+     width: 80%;
+     margin: 0 auto;
+
+     h3{
+     color: @nav;
+     font-family: @fancyfont;
+     font-size: 42px;
+     text-align: center;
+     padding: 5px;
+     }
+
+     p{
+     color: @darknav;
+     font-family: 'Lato';
+     font-size: 24px;
+     text-align: center;
+     padding-bottom: 2%;
+     text-indent: 10px;
+     }
+}
+
+#bottom{
+     width: 100%;
+     height: 100px;
+     background-color: @nav;
+     clear: both;
+}
